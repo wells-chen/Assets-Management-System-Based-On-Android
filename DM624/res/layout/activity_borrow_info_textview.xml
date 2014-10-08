@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/Borrow_D_Id"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Borrow_D_Name"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Borrow_B_Time"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Borrow_R_Time"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Borrow_State"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+    </TableRow>
+
+</LinearLayout>

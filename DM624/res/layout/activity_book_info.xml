@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+        android:text="@string/B_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_B_Id"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/B_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_B_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/BuyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_BuyTime"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_Price"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/L_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_L_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/T_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_T_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:text="@string/BorrowUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_UserName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:text="@string/B_State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_B_State"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/Remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Book_Remark"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+    </TableLayout>
+
+</LinearLayout>

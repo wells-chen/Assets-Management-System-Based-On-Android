@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+    <EditText  
+        android:id="@+id/pwd"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/pwd_hint" >  
+  
+        <requestFocus />  
+    </EditText>  
+    
+    <EditText  
+        android:id="@+id/newpwd1"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/newpwd1_hint" >
+    </EditText>
+    
+    <EditText  
+        android:id="@+id/newpwd2"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/newpwd2_hint" >
+    </EditText>
+  
+    <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal" >  
+  
+        <Button  
+            android:id="@+id/pwdbtn1"  
+            android:layout_width="100dp"  
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="20dp"  
+            android:text="@string/confirm1" />  
+  
+        <Button  
+            android:id="@+id/pwdbtn2"  
+            android:layout_width="100dp"  
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="40dp"  
+            android:text="@string/cancel1" />  
+    </LinearLayout>  
+  
+</LinearLayout>  

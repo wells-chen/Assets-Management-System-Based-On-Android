@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/device_query_item_tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/D_Id"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/D_Name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/L_Id"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Remark"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+    </TableRow>
+
+</LinearLayout>

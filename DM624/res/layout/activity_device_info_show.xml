@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+        android:text="@string/D_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_D_Id"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/D_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_D_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/BuyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_BuyTime"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Price"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/L_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_L_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/T_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_T_Name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:text="@string/BorrowUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_UserName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:text="@string/D_State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_D_State"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+
+    <TableRow>
+         <TextView
+        android:text="@string/Remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Detail_Remark"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="30dp"
+        android:textSize="14sp" >
+    </TextView>
+    </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_input_reason"/>
+    <EditText
+        android:id="@+id/Device_Reservation_EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:inputType="text"/>
+     <Button
+            android:id="@+id/Device_Reservation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:height="40dp"
+            android:textSize="14sp"
+            android:text="@string/Reservation" >
+      </Button>  
+
+</LinearLayout>
